@@ -1,0 +1,17 @@
+<library path="lib/librqt_footpedal">
+  <class name="rqt_footpedal/FootPedal" type="rqt_footpedal::FootPedal" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      rqt plugin for use with the Savant Elite2 foot pedal.
+    </description>
+    <qtgui>
+      <group>
+        <label>MED Lab</label>
+        <icon type="theme">go-home</icon>
+        <statustip>MED Lab plugins</statustip>
+      </group>
+      <label>Foot Pedal</label>
+      <icon type="theme">input-keyboard</icon>
+      <statustip>rqt plugin for use with the Savant Elite2 foot pedal.</statustip>
+    </qtgui>
+  </class>
+</library>
