@@ -195,4 +195,4 @@ void triggerConfiguration()
 }*/
 
 } // namespace
-PLUGINLIB_DECLARE_CLASS(rqt_footpedal, FootPedal, rqt_footpedal::FootPedal, rqt_gui_cpp::Plugin)
+PLUGINLIB_EXPORT_CLASS(rqt_footpedal::FootPedal, rqt_gui_cpp::Plugin)
